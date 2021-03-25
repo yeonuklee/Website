@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<!-- gotta change the icon  -->
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>portfolio</title>
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img
+        src="img/logo.png"
+        alt="portfolio logo"
+        class="nav_logo"
+        id="logo"
+        designer="yeonuk"
+      />
+        <ul class="nav_links">
+          <!-- <li class="nav_item">
+            <a class="nav_link" href="#section-1">Intro</a>
+          </li> -->
+          <li class="nav_item">
+            <a class="nav_link" href="#section-2">Projects</a>
+          </li>
+          <li class="nav_item">
+            <a class="nav_link" href="#section-3">etc</a>
+          </li>
+          <li class="nav_item">
+            <a class="nav_link nav_link-btn btn-show-modal" href="#"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="header_title">
+        <h1>
+          <svg
+            xmlns="//www.w3.org/2000/svg"
+            version="1.1"
+            class="svg-filters"
+            style="display: none"
+          >
+            <defs>
+              <filter id="marker-shape">
+                <feTurbulence
+                  type="fractalNoise"
+                  baseFrequency="0 0.15"
+                  numOctaves="1"
+                  result="warp"
+                />
+                <feDisplacementMap
+                  xChannelSelector="R"
+                  yChannelSelector="G"
+                  scale="30"
+                  in="SourceGraphic"
+                  in2="warp"
+                />
+              </filter>
+            </defs>
+          </svg>
+          Hello, I'm
+          <span class="highlight">Yeonuk</span>
+          and <br />
+          <span class="highlight">Developer</span>
+        </h1>
+        <h4>Hello My name is Yeonuk. Welcome to portfolio website</h4>
+        <button class="btn-text btn-scroll-to">About me &DownArrow;</button>
+        <img
+          src="img/forest.jpg"
+          class="header_img"
+          alt="Minimalist bank items"
+        />
+      </div>
+    </header>
+    <!-- <section class="section" id="section-1">
+      <div class="section_title">
+        <h2 class="section__description">Intro</h2>
+        <h3 class="section_header">Everything you need to know about me</h3>
+      </div>
+
+      <div class="intro">
+        <!-- <img /> -->
+        <!-- <div class="intro_feature">
+          <div class="intro_icon">
+            <svg><use xlink:href="img/icons.svg#icon-monitor"></use></svg>
+          </div>
+          <h5 class="intro_header">100% digital bank</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde alias
+            sint quos? Accusantium a fugiat porro reiciendis saepe quibusdam
+            debitis ducimus.
+          </p>
+          <div class="intro_feature">
+            <div class="intro_icon">
+              <svg>
+                <use xlink:href="img/icons.svg#icon-trending-up"></use>
+              </svg>
+            </div>
+            <h5 class="intro_header">Watch your money grow</h5>
+            <p>
+              Nesciunt quos autem dolorum voluptates cum dolores dicta fuga
+              inventore ab? Nulla incidunt eius numquam sequi iste pariatur
+              quibusdam!
+            </p>
+          </div>
+          <img
+            src="img/grow-lazy.jpg"
+            data-src="img/grow.jpg"
+            alt="Plant"
+            class="intro_img lazy-img"
+          />
+
+          <img
+            src="img/card-lazy.jpg"
+            data-src="img/card.jpg"
+            alt="Credit card"
+            class="intro_img lazy-img"
+          />
+          <div class="intro_feature">
+            <div class="intro_icon">
+              <svg>
+                <use xlink:href="img/icons.svg#icon-credit-card"></use>
+              </svg>
+            </div>
+            <h5 class="intro_header">Free debit card included</h5>
+            <p>
+              Quasi, fugit in cumque cupiditate reprehenderit debitis animi enim
+              eveniet consequatur odit quam quos possimus assumenda dicta fuga
+              inventore ab.
+            </p>
+          </div>
+        </div>
+    </section> --> -->
+
+    <section class = "section" id = "section-2">
+        <div class = "section_title">
+            <h2 class = "section__description">Projects</h2>
+            <h3 class = "section_header">
+                This is my projects list.
+            </h3>
+        </div>
+
+        <div class = "operations">
+            <div class = "operations_tab-container">
+                <button
+                class = "btn operations_tab operations_tab-1 operations_tab-active"
+                data-tab = "1"
+                >
+                <span>1. </span>C project
+            </button>
+            <button class = "btn operations_tab operations_tab-2" data-tab="2">
+                <span>2. </span>Javascript Project
+            </button>
+            <button class = "btn operations_tab operations_tab-3" data-tab="3">
+                <span>3. </span>Others
+            </button>
+            </div>
+            <div class="operations_content operations_content-1 operations_content-active">
+                <div class="operations_icon operations_icon-1">
+                    <svg>
+                      <use xlink:href="img/icons.svg#icon-upload"></use>
+                    </svg>
+                  </div>
+                  <h5 class = "operations_header">
+                      ADHSJASHDAJKSDHKAJSHDSJAKHDJAKSHDADJDHASJKD
+                  </h5>
+                  <p>
+                      asjdlkjlsakdjkljsdlkjasdlkjalksjdklajsdlkajsdlkasjdlas
+                      sjdlakjdlkjasdjalskjdlkajsdlkjalksdjlkajsdlkajsd
+                      lasdjlkasjdlkajdslkjalksdjlaksjdklasjd
+                  </p>
+            </div>
+        </div>
+        <div class="operations_content operations_content-2 operations_content-active">
+            <div class="operations_icon operations_icon-2">
+                <svg>
+                  <use xlink:href="img/icons.svg#icon-upload"></use>
+                </svg>
+              </div>
+              <h5 class = "operations_header">
+                  ADHSJASHDAJKSDHKAJSHDSJAKHDJAKSHDADJDHASJKD
+              </h5>
+              <p>
+                  asjdlkjlsakdjkljsdlkjasdlkjalksjdklajsdlkajsdlkasjdlas
+                  sjdlakjdlkjasdjalskjdlkajsdlkjalksdjlkajsdlkajsd
+                  lasdjlkasjdlkajdslkjalksdjlaksjdklasjd
+              </p>
+        </div>
+    </div>
+    <div class="operations_content operations_content-3 operations_content-active">
+        <div class="operations_icon operations_icon-3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class = "operations_header">
+              ADHSJASHDAJKSDHKAJSHDSJAKHDJAKSHDADJDHASJKD
+          </h5>
+          <p>
+              asjdlkjlsakdjkljsdlkjasdlkjalksjdklajsdlkajsdlkasjdlas
+              sjdlakjdlkjasdjalskjdlkajsdlkjalksdjlkajsdlkajsd
+              lasdjlkasjdlkajdslkjalksdjlaksjdklasjd
+          </p>
+        </div>
+    </div>
+    </section>
+  </body>
+</html>
